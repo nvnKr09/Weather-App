@@ -45,16 +45,6 @@ async function fetchWeatherData(latitude, longitude) {
   } catch (error) {
     console.log("Something went wrong");
   }
-  // Make a GET request using Fetch or any other preferred method
-  //   fetch(apiUrl)
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       // Call function to display weather data on the UI
-  //       displayWeatherData(data);
-  //     })
-  //     .catch((error) =>
-  //       console.error(`Error fetching weather data: ${error.message}`)
-  //     );
 }
 
 function displayWeatherData(data) {
